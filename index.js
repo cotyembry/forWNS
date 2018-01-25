@@ -1,3 +1,6 @@
-import test from './test.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-test();
+import Test from './test.jsx';
+
+ReactDOM.render(<Test />, document.getElementById('test'));
